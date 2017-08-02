@@ -1,0 +1,15 @@
+.section1{
+    padding: 100px 0;
+    .flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flex__item{
+        width: 300px;
+        text-align: center;
+        padding: 35px 0;
+        span{
+            color: $grey;
+        }
+    }
+}

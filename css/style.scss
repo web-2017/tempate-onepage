@@ -1,0 +1,31 @@
+/*colors*/
+$white: #cbccd3;
+$red: #e84545;
+$grey: #6c7279;
+$blue: #3a3e64;
+$darkBlue: #313454;
+/*fonts*/
+
+/*adjustment*/
+@import 'adj/base';
+
+/*mixin*/
+@import 'mixin/mix';
+
+/*fontawesome*/
+@import 'font/font-awesome.min';
+
+/*font*/
+@import 'fonts/fonts';
+
+/*font*/
+
+/*plugins*/
+@import 'plugin/animate';
+@import 'plugin/normolize';
+
+/*media queries*/
+
+/*sections*/
+@import 'section/header';
+@import 'section/section1';
