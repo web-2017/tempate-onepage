@@ -7,3 +7,14 @@
         }, 800);
     });
 });
+
+// scroll top button
+$(function(){
+    var btnTop = $('#top');
+    btnTop.on('click', function(e){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('html, body').position().top
+        }, 1500);
+    });
+});
