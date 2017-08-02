@@ -4,6 +4,7 @@
     overflow: hidden;
     background: url('../images/bg/head.png') center center no-repeat;
     position: relative;
+
     #icon{
         text-transform: uppercase;
         position: absolute;
@@ -50,6 +51,23 @@
         display: inline-block;
     }
 
+    .btn__down{
+        position: absolute;
+        left: 50%;
+        bottom: 3%;
+        transition: .3s;
+        
+        a{
+            text-decoration: none;
+            font-size: 2em;
+            color: #fff;
+            display: block;
+        }
+
+        &:hover{
+            bottom: 4%;
+        }
+    }
 }
 
 .menu{
